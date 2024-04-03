@@ -1,7 +1,7 @@
 ## Calories Burnt Prediction Project
 
 ## Description
-This project aims to predict the number of calories burnt by an individual based on various parameters such as duration, intensity, and individual characteristics. It utilizes a machine learning model built with Python, leveraging libraries like Pandas, NumPy, Matplotlib, Scikit-learn, XGBoost, and Seaborn for data manipulation, visualization, and model building.
+This project aims to predict the number of calories burnt by an individual based on various parameters such as age , gender , exercise duration, etc. It utilizes a machine learning model built with Python, leveraging libraries like Pandas, NumPy, Matplotlib, Scikit-learn, XGBoost, and Seaborn for data manipulation, visualization, and model building.
 
 
 ## Installation
@@ -31,7 +31,7 @@ The project utilizes two main datasets:
 
 ## Model
 
-The core of this project is a machine learning model built using XGBoost, trained on the provided datasets to predict calories burnt. The model's performance is evaluated using standard metrics and visualized using Matplotlib and Seaborn.
+The core of this project is a machine learning model built using XGBoostRegressor, trained on the provided datasets to predict calories burnt. The model's performance is evaluated using standard metrics and visualized using Matplotlib and Seaborn.
 
 ## Features
 
